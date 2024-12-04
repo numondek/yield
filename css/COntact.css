@@ -1,0 +1,431 @@
+.twohundredthirtyfourmillioneighthundredeleventhousandthreehundredseventeen {
+    color: var(--gray_900_02) !important;
+    letter-spacing: -0.32px;
+    font-weight: 400 !important;
+}
+
+.iconbutton {
+    height: 32px;
+    padding-left: var(--space-md);
+    padding-right: var(--space-md);
+    background-color: var(--gray_900_02) !important;
+    width: 32px;
+    border-radius: 12px !important;
+}
+
+.twitter_one {
+    height: 20px;
+    margin-left: 4px;
+}
+
+.firstname-1 {
+    color: var(--gray_900_01) !important;
+    padding-left: var(--space-2xl);
+    padding-right: var(--space-2xl);
+    align-self: stretch;
+    height: 28px;
+    border-bottom: 1px solid var(--black_900) !important;
+}
+
+.lastname {
+    color: var(--gray_900_99) !important;
+    font-weight: 500 !important;
+}
+
+/*-------------------------------------  2. Page CSS--------------------------------------*/
+.herosection-3 {
+    gap: 82px;
+    background-color: var(--blue_50_01);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media only screen and (max-width: 1440px) {
+        gap: 82px;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        gap: 61px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        gap: 41px;
+    }
+}
+
+.column_one {
+    margin-bottom: 172px;
+    padding-left: 56px;
+    padding-right: 56px;
+
+    @media only screen and (max-width: 1440px) {
+        padding-left: var(--space-5xl);
+        padding-right: var(--space-5xl);
+    }
+
+    @media only screen and (max-width: 1050px) {
+        padding-left: var(--space-5xl);
+        padding-right: var(--space-5xl);
+    }
+}
+
+.rowwedloveto {
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+
+    @media only screen and (max-width: 1050px) {
+        flex-direction: column;
+        margin-left: 0px;
+    }
+}
+
+.columnwedloveto {
+    gap: var(--space-3xl);
+    align-self: flex-end;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+
+    @media only screen and (max-width: 1050px) {
+        align-self: stretch;
+    }
+}
+
+.wedloveto {
+    color: var(--gray_500) !important;
+    width: 76%;
+    line-height: 120%;
+
+    @media only screen and (max-width: 1440px) {
+        width: 100%;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 34px;
+    }
+}
+
+.wedloveto-span-1 {
+    color: var(--black_900);
+}
+
+.haveany {
+    color: var(--gray_900_b2) !important;
+    margin-left: 6px;
+    width: 86%;
+    line-height: 160%;
+
+    @media only screen and (max-width: 1440px) {
+        width: 100%;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+        margin-left: 0px;
+    }
+}
+
+.rowletstalk {
+    width: 42%;
+    display: flex;
+    justify-content: flex-end;
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+
+column-4 {
+    gap: var(--space-7xl);
+    display: flex;
+    width: 82%;
+    flex-direction: column;
+
+    @media only screen and (max-width: 1440px) {
+        width: 100%;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+
+.letstalk {
+    color: var(--gray_900_02) !important;
+    font-weight: 500 !important;
+}
+
+.row-2 {
+    margin-top: 6px;
+    align-self: stretch;
+    display: flex;
+    justify-content: space-between;
+    gap: var(--space-5xl);
+
+    @media only screen and (max-width: 550px) {
+        flex-direction: column;
+    }
+}
+
+.rowtelephone {
+    gap: var(--space-lg);
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+.telephone_one {
+    height: 32px;
+    padding-left: var(--space-md);
+    padding-right: var(--space-md);
+    background-color: var(--gray_800) !important;
+    width: 32px;
+    border-radius: 12px !important;
+}
+
+.rowvector7438 {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-5xl);
+
+    @media only screen and (max-width: 550px) {
+        align-self: stretch;
+    }
+}
+
+.vector7438_one {
+    height: 16px;
+    margin-bottom: 4px;
+    align-self: flex-end;
+    background-color: var(--gray_600_8c);
+    width: 1px;
+}
+
+.rowmailone_one-4 {
+    gap: var(--space-md);
+    display: flex;
+    align-items: center;
+}
+
+.email-9 {
+    color: var(--gray_900_02) !important;
+    letter-spacing: -0.32px;
+    font-weight: 400 !important;
+    align-self: flex-end;
+}
+
+.row234811317 {
+    margin-top: 20px;
+    gap: 9px;
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+}
+
+.line_one {
+    height: 1px;
+    margin-top: 24px;
+    background-color: var(--gray_600_8c);
+    width: 68%;
+}
+
+.columnoffice {
+    gap: 26px;
+    display: flex;
+    flex-direction: column;
+}
+
+.address {
+    gap: var(--space-3xl);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.office {
+    color: var(--gray_900_02) !important;
+    font-family: Roboto !important;
+    font-weight: 700 !important;
+}
+
+.info_one-3 {
+    height: 24px;
+    margin-left: 4px;
+}
+
+.column_two-1 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: var(--gray_50);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media only screen and (max-width: 1050px) {
+        padding-top: var(--space-5xl);
+        padding-bottom: var(--space-5xl);
+    }
+
+    @media only screen and (max-width: 550px) {
+        padding-top: var(--space-4xl);
+        padding-bottom: var(--space-4xl);
+    }
+}
+
+.columncontactfo {
+    padding-left: 56px;
+    padding-right: 56px;
+    gap: var(--space-12xl);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media only screen and (max-width: 1440px) {
+        padding-left: var(--space-5xl);
+        padding-right: var(--space-5xl);
+    }
+
+    @media only screen and (max-width: 1050px) {
+        padding-left: var(--space-5xl);
+        padding-right: var(--space-5xl);
+    }
+}
+
+.youremail {
+    color: var(--gray_900_02) !important;
+    font-weight: 400 !important;
+}
+
+.columnfirstname {
+    width: 52%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media only screen and (max-width: 1440px) {
+        width: 100%;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        width: 100%;
+    }
+}
+
+.rowfirstname {
+    gap: var(--space-10xl);
+    display: flex;
+    align-self: stretch;
+
+    @media only screen and (max-width: 1050px) {
+        flex-direction: column;
+    }
+}
+
+.formfield {
+    gap: var(--space-md);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.firstname {
+    color: var(--gray_900_99) !important;
+}
+
+.formfield-1 {
+    gap: var(--space-lg);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.formfield-2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.email-6 {
+    color: var(--gray_900_01) !important;
+    margin-top: 8px;
+    font-weight: 400 !important;
+}
+
+.line_three {
+    height: 1px;
+    margin-top: 4px;
+    background-color: var(--black_900);
+    align-self: stretch;
+    width: 100%;
+}
+
+.formfield-3 {
+    gap: var(--space-11xl);
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.line_five {
+    height: 1px;
+    background-color: var(--black_900);
+    align-self: stretch;
+    width: 100%;
+}
+
+.message {
+    color: var(--gray_900_99) !important;
+    margin-top: 26px;
+    font-weight: 500 !important;
+    align-self: flex-start;
+}
+
+.type_your {
+    color: var(--gray_900_4c);
+    margin-top: 6px;
+    font-size: 16px;
+    align-self: stretch;
+    height: 156px;
+    padding: var(--space-7xl) var(--space-5xl) var(--space-2xl) var(--space-5xl);
+    border-radius: 4px !important;
+    border: 0.5px solid var(--gray_800) !important;
+
+    @media only screen and (max-width: 550px) {
+        padding-top: var(--space-4xl);
+    }
+}
+
+.send_message {
+    color: var(--gray_100) !important;
+    margin-top: 32px;
+    padding-left: var(--space-10xl);
+    padding-right: var(--space-10xl);
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--indigo_900) !important;
+    height: 52px;
+    min-width: 176px;
+    border-radius: 4px !important;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 13px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        padding-left: var(--space-4xl);
+        padding-right: var(--space-4xl);
+    }
+}

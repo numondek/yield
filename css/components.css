@@ -1,0 +1,426 @@
+.ui.button.round {
+    border-radius: var(--radius-lg);
+}
+
+.ui.button.size-xs {
+    height: 32px;
+    padding-right: var(--space-lg);
+    padding-left: var(--space-lg);
+    font-size: 16px;
+}
+
+.ui.button.size-sm {
+    height: 32px;
+    padding-right: var(--space-md);
+    padding-left: var(--space-md);
+
+}
+
+.ui.button.size-md {
+    height: 52px;
+    padding-left: var(--space-lg);
+    padding-right: var(--space-lg);
+    font-size: 16px;
+}
+
+.ui.button.size-lg {
+    height: 56px;
+    padding-left: var(--space-8xl);
+    padding-right: var(--space-8xl);
+    font-size: 16px;
+}
+
+.ui.button.fill.gray_800 {
+    background-color: var(--gray_800);
+}
+
+.ui.button.fill.indigo_900 {
+    background-color: var(--indigo_900);
+    color: var(--gray_100);
+}
+
+.ui.button.outline.gray_800 {
+    color: var(--gray_800);
+    border: 0.24px solid var(--gray_800);
+}
+
+.ui.button.fill.gray_900_02 {
+    background-color: var(--gray_900_02);
+}
+
+.ui.button.fill.gray_100_4c {
+    background-color: var(--gray_100_4c);
+    color: var(--gray_100);
+}
+
+.ui.button.outline.indigo_900 {
+    color: var(--gray_900_02);
+    border: 2px solid var(--indigo_900);
+}
+
+.ui.button.outline.black_900 {
+    color: var(--black_900);
+    border: 2px solid var(--black_900);
+}
+
+.ui.button {
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+/*-------------------------------------  2. Input CSS--------------------------------------*/
+.ui.input.square {
+    border-radius: 0px;
+}
+
+.ui.input.round {
+    border-radius: var(--radius-md);
+}
+
+.ui.input.round {
+    border-radius: var(--radius-md);
+}
+
+.ui.input.size-xs {
+    height: 28px;
+    padding-left: var(--space-2xl);
+    padding-right: var(--space-2xl);
+    font-size: 16px;
+}
+
+.ui.input.size-sm {
+    height: 58px;
+    padding-left: 18px;
+    padding-right: var(--space-8xl);
+    font-size: 16px;
+}
+
+.ui.input.underline.black_900 {
+    color: var(--gray_900_01);
+    border-bottom: 1px solid var(--black_900);
+}
+
+.ui.input.outline.gray_500_01 {
+    color: var(--gray_500_01);
+    border: 1px solid var(--gray_500_01);
+}
+
+.ui.input.fill.white_a700 {
+    background-color: var(--white_a700);
+    color: var(--blue_gray_400_01);
+}
+
+.ui.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: text;
+    font-size: 16px;
+}
+
+/*-------------------------------------  3. Checkbox CSS--------------------------------------*/
+.ui.checkbox.size-xs {
+    height: 16px;
+    width: 16px;
+    border-radius: var(--radius-sm);
+}
+
+.ui.checkbox.primary {
+    accent-color: #262f36;
+    border: 1px solid var(--blue_gray_900);
+}
+
+.ui.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+/*-------------------------------------  4. Textarea CSS--------------------------------------*/
+.ui.textarea.round {
+    border-radius: var(--radius-sm);
+}
+
+.ui.textarea.size-xs {
+    height: 156px;
+    font-size: 16px;
+    padding: var(--space-5xl);
+}
+
+.ui.textarea.size-sm {
+    height: 200px;
+    font-size: 16px;
+    padding: var(--space-4xl);
+}
+
+.ui.textarea.taroutlinegray800.gray_800 {
+    border: 0.5px solid var(--gray_800) !important;
+}
+
+.ui.textarea.targrey.gray_500_01 {
+    border: 1px solid var(--gray_500_01) !important;
+}
+
+/*-------------------------------------  5. Text CSS--------------------------------------*/
+.ui.text.size-textxs {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.ui.text.size-textlg {
+    font-size: 18px;
+    font-weight: 400;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 15px;
+    }
+}
+
+.ui.text.size-text2xl {
+    font-size: 22px;
+    font-weight: 400;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 18px;
+    }
+}
+
+.ui.text.size-text3xl {
+    font-size: 24px;
+    font-weight: 400;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 20px;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 22px;
+    }
+}
+
+.ui.text.size-text4xl {
+    font-size: 28px;
+    font-weight: 400;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 23px;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 26px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 24px;
+    }
+}
+
+.ui.text.size-text5xl {
+    font-size: 56px;
+    font-weight: 400;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 47px;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 48px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 42px;
+    }
+}
+
+.ui.text.size-text6xl {
+    font-size: 60px;
+    font-weight: 400;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 51px;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 52px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 46px;
+    }
+}
+
+.ui.text.size-text7xl {
+    font-size: 78px;
+    font-weight: 400;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 78px;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 48px;
+    }
+}
+
+.ui.text.size-text8xl {
+    font-size: 80px;
+    font-weight: 400;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 80px;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 48px;
+    }
+}
+
+.ui.text {
+    color: var(--gray_900_b2_02);
+    font-family: Rubik;
+}
+
+.ui.heading.size-texts {
+    font-size: 16px;
+    font-weight: 500;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 13px;
+    }
+}
+
+.ui.heading.size-textmd {
+    font-size: 17px;
+    font-weight: 500;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 14px;
+    }
+}
+
+.ui.heading.size-textxl {
+    font-size: 20px;
+    font-weight: 500;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 17px;
+    }
+}
+
+.ui.heading.size-headingxs {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.ui.heading.size-headings {
+    font-size: 16px;
+    font-weight: 700;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 13px;
+    }
+}
+
+.ui.heading.size-headingmd {
+    font-size: 20px;
+    font-weight: 600;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 17px;
+    }
+}
+
+.ui.heading.size-headinglg {
+    font-size: 22px;
+    font-weight: 600;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 18px;
+    }
+}
+
+.ui.heading.size-headingxl {
+    font-size: 28px;
+    font-weight: 700;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 23px;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 26px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 24px;
+    }
+}
+
+.ui.heading.size-heading2xl {
+    font-size: 32px;
+    font-weight: 600;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 27px;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 30px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 28px;
+    }
+}
+
+.ui.heading.size-heading3xl {
+    font-size: 38px;
+    font-weight: 600;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 32px;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 36px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 34px;
+    }
+}
+
+.ui.heading.size-heading4xl {
+    font-size: 60px;
+    font-weight: 600;
+
+    @media only screen and (max-width: 1440px) {
+        font-size: 51px;
+    }
+
+    @media only screen and (max-width: 1050px) {
+        font-size: 52px;
+    }
+
+    @media only screen and (max-width: 550px) {
+        font-size: 46px;
+    }
+}
+
+.ui.heading {
+    color: white;
+    font-family: Rubik;
+}
+
+.container-xs {
+    max-width: 1550px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
