@@ -304,6 +304,7 @@
   .become_a_donor-5,
   .become_a_donor-6 {
     width: 100%;
+    margin-top: 30px;
     padding: var(--space-small);
   }
 
@@ -596,6 +597,16 @@
       flex-direction: column;
       align-items: center;
     }
+
+    .become_a_donor-6 {
+        width: 100%;
+        margin-top: 30px;
+        padding: var(--space-small);
+      }
+
+      .rowaboutus {
+        margin-top: 20px;
+      }
   
     .rowbecome_a-4 {
       flex-direction: column;
