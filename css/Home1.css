@@ -302,7 +302,7 @@
 
 .row-3 {
     height: 1024px;
-    background-image: url(../public/images/img_group_8.png);
+    background-image: url(../public/images/.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 54%;
@@ -332,7 +332,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center; 
-    list-style: none;
+    
 
     @media only screen and (max-width: 550px) {
         flex-direction: column;
